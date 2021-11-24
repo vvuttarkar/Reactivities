@@ -1,0 +1,12 @@
+{
+    "Data": {
+        "DefaultConnection": {
+            "ConnectionString": "Server=.sqlexpress;Database=Reactivities; user id= test; password=test;MultipleActiveResultSets=true"
+        }
+    },
+    "EntityFramework": {
+        "TestContext": {
+            "ConnectionString": "Data:DefaultConnection:ConnectionString"
+        }
+    }
+}
